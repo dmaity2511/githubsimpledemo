@@ -33,6 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
          sudo apt update
-         sudo apt install apache2
+         sudo apt install apache2 -y
           echo Add other actions to build,
           echo test, and deploy your project.
